@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EasyLearnApp</string>
+    <string name="username">Usuário (email)</string>
+    <string name="username_hint">Usuário (email)</string>
+    <string name="password">Senha</string>
+    <string name="password_hint">Senha</string>
+    <string name="do_login">Faça seu login!</string>
+    <string name="do_register">Cadastre-se!</string>
+    <string name="login">Login</string>
+    <string name="register">Cadastrar</string>
+    <string name="or">OU</string>
+    <string name="i_am">Sou:</string>
+    <string name="student">Estudante</string>
+    <string name="teacher">Professor</string>
+    <string name="level">Nível</string>
+    <string name="education1">Educação Infantil</string>
+    <string name="education2">Ensino Fundamental</string>
+    <string name="education3">Ensino Médio</string>
+</resources>
