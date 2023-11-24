@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">EasyLearnApp</string>
+    <string name="welcome">Bem vindo!!</string>
+    <string name="username_name">Nome</string>
+    <string name="username_name_hint">Digite seu nome…</string>
     <string name="username">Usuário (email)</string>
     <string name="username_hint">Usuário (email)</string>
     <string name="password">Senha</string>
@@ -8,6 +11,7 @@
     <string name="do_register">Cadastre-se!</string>
     <string name="login">Login</string>
     <string name="register">Cadastrar</string>
+    <string name="enter">Entrar</string>
     <string name="or">OU</string>
     <string name="i_am">Sou:</string>
     <string name="student">Estudante</string>
@@ -16,4 +20,200 @@
     <string name="education1">Educação Infantil</string>
     <string name="education2">Ensino Fundamental</string>
     <string name="education3">Ensino Médio</string>
+
+    <string name="subjects">Matérias</string>
+    <string name="create_class">Criar sala: \nperguntas e respostas</string>
+    <string name="create_class_button">Criar sala</string>
+    <string name="choose_subject">Selecione a matéria</string>
+    <string name="enter_class">Entre em uma sala</string>
+    <string name="enter_class_hint">Código da sala…</string>
+    <string name="portuguese">Português</string>
+    <string name="math">Matemática</string>
+    <string name="science">Ciências</string>
+    <string name="geography">Geografia</string>
+    <string name="biology">Biologia</string>
+    <string name="physics">Física</string>
+    <string name="games">Jogos</string>
+    <string name="memory_game">Jogo da Memória</string>
+
+    <string name="portuguese_school_subject1">Regras gerais de acentuação gráfica</string>
+    <string name="portuguese_school_content1">As regras de acentuação gráfica foram criadas para, por meio da escrita, orientar a pronúncia correta das palavras quanto à sílaba tônica.
+        Os acentos gráficos são dois: agudo (´) e circunflexo (^). As regras, já atualizadas pela Reforma Ortográfica, aplicam-se às oxítonas, paroxítonas, proparoxítonas,
+        ditongos abertos, hiatos e acentos diferenciais.
+        \n\nRegras gerais de acentuação gráfica:
+        \n\n1. Monossílabos tônicos: são palavras formadas por uma única sílaba. São acentuados quando terminados em:
+        \nA (s): pá, lá, ás (baralho)
+        \nE (s): pé, fé, ré
+        \nO (s): pó, dó
+        \n\n2. Oxítonas: são as palavras cuja sílaba tônica é a última. Recebem acento quando terminadas em:
+        \nA (s): so-fá, Pa-rá, ma-ra-cu-jás, Pa-ra-ná.
+        \nE (s): vo-cê, ca-fé, be-bês.
+        \nO (s): a-vô, a-vós.
+        \nEM: al-guém, tam-bém, po-rém, nin-guém.
+        \nENS: pa-ra-béns.
+        \n\n3. Paroxítonas: são as palavras cuja sílaba tônica é a penúltima. Recebem acento quando terminadas em:
+        \nL: ní-vel, rép-til, i-na-cre-di-tá-vel.
+        \nR: a-çú-car, re-vól-ver, ca-rá-ter.
+        \nN: hí-fen, ab-dô-men, pró-ton, nêu-tron, e-lé-tron.
+        \nX: clí-max, tó-rax.
+        \nI (s): lá-pis, tá-xi, vô-lei, pô-nei, jó-quei.
+        \nU (s): ô-nus, bô-nus.
+        \nUM/UNS: fó-rum, quó-rum.
+        \nÃ (s): ór-fã.
+        \nÃO (s): só-tão, ór-gão, ór-fão.
+        \nONS: pró-tons, e-lé-trons, nêu-trons.
+        \nPS: bí-ceps, trí-ceps, qua-drí-ceps, fór-ceps.
+        \n\nDITONGOS CRESCENTES: his-tó-ria, sé-rie, á-gua, é-gua, Má-rio, ró-seo.
+        \nObservação: Antes da Nova Ortografia, havia duas outras regras para acentuação de paroxítonas: quando elas possuíam EE e OO. Eram os casos de VOO, ENJOO, CREEM, LEEM e VEEM.
+        Essas palavras possuíam acento circunflexo. Hoje, são grafadas sem acento.
+        \n\n4. Proparoxítonas: são as palavras cuja sílaba tônica é a antepenúltima. Todas são acentuadas. Exemplos: mé-di-co, ár-vo-re, mai-ús-cu-lo, ô-ni-bus, Pi-tá-go-ras.
+        \n\nRegras especiais de acentuação:
+        \n\n5. Ditongos abertos: os ditongos abertos ÉU, ÉI e ÓI são acentuados para que não se confundam suas pronúncias com suas respectivas formas fechadas EU, EI e OI. Veja:
+        \nFormas abertas: céu, réu, cha-péu, a-néis, fí-éis, pas-téis, dói, he-rói, des-trói.
+        \nFormas fechadas: seu, meu, co-meu, a-vei-a, ba-lei-a, fa-lei, boi, oi-to.
+        \nObservação: Com a Nova Ortografia, os ditongos abertos EI e OI perderam acento em palavras paroxítonas. Exemplos: i-dei-a, as-sem-blei-a, eu-ro-pei-a, ge-lei-a, ji-boi-a, joi-a, he-roi-co.
+        Essas palavras tinham acento agudo (idéia, assembléia, européia, geléia, jibóia, jóia e heróico), mas o perderam em razão da Reforma Ortográfica.
+        \n\n6. Hiato: acentuam-se os hiatos com I ou U sozinhos na sílaba ou seguidos de S. Veja:
+        \nPa-ís, sa-ú-de, ba-ú, mi-ú-do, a-ça-í, Lu-ís, ra-í-zes, ju-í-zo. Observações:
+        \n- Hiatos seguidos de NH não são acentuados. Veja:
+        \nMo-i-nho, ra-i-nha.
+        \n- Com a Nova Ortografia, não se acentuam hiatos precedidos de ditongo em palavras paroxítonas. Veja:
+        \nfei-u-ra, boi-u-no, Bo-cai-u-va.
+        \n\n7. Acento diferencial: recebem acento diferencial algumas palavras homônimas perfeitas que, em determinados contextos, podem geram duplicidade de sentido ou confusão na interpretação. Veja:
+        \nPôr (verbo) – Por (preposição)
+        \n(eles) Têm (plural) – (ele) Tem (singular)
+        \n(eles) Vêm (plural) – (ele) Tem (singular)
+        \n(o/um) Porquê (substantivo) – Porque (conjunção)
+        \n(eles) Contêm (plural) – (ele) Contém (singular)
+        \n(eles) Provêm (plural) – (ele) Provém (singular)
+        \n\nObservações:
+        \n→ As palavras para (verbo), pelo (substantivo) e polo (substantivo) tinham acento diferencial antes da Reforma Ortográfica (pára, pêlo e pólo). Esses acentos foram extintos.
+        \n→ O acento diferencial em fôrma (fechado) para diferenciar de forma (aberto) é facultativo.
+        \n→ A forma verbal pôde (passado) possui acento diferencial para distingui-la de pode (presente) mesmo não sendo palavras homônimas perfeitas.
+    </string>
+
+    <string name="math_school_subject1">Números Naturais</string>
+    <string name="math_school_content1">
+        Os Números Naturais N = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12…}
+        são números inteiros positivos (não-negativos) que se agrupam num conjunto chamado de N, composto de um número ilimitado de elementos.
+        \nSe um número é inteiro e positivo, podemos dizer que é um número natural.
+        \nQuando o zero não faz parte do conjunto, é representado com um asterisco ao lado da letra N e, nesse caso, esse conjunto é denominado de Conjunto dos Números Naturais Não-Nulos:
+        \nN* = {1, 2, 3, 4, 5, 6, 7, 8, 9…}.
+        \n\nConjunto dos Números Naturais Pares = {0, 2, 4, 6, 8…}
+        \n\nConjunto dos Números Naturais Ímpares = {1, 3, 5, 7, 9…}
+        \n\nO conjunto de números naturais é infinito. Todos possuem um antecessor (número anterior) e um sucessor (número posterior), exceto o número zero (0). Assim:
+        \no antecessor de 1 é 0 e seu sucessor é o 2;
+        \no antecessor de 2 é 1 e seu sucessor é o 3;
+        \no antecessor de 3 é 2 e seu sucessor é o 4;
+        \no antecessor de 4 é 3 e seu sucessor é o 5.
+        \n\nCada elemento é igual ao número antecessor mais um, exceptuando-se o zero. Assim, podemos notar que:
+        \no número 1 é igual ao anterior (0) + 1 = 1;
+        \no número 2 é igual ao anterior (1) + 1 = 2;
+        \no número 3 é igual ao anterior (2) + 1 = 3;
+        \no número 4 é igual ao anterior (3) + 1 = 4.
+        \n\nA função dos números naturais é contar e ordenar. Nesse sentido, vale lembrar que os homens, antes de inventarem os números, tinham muita dificuldade em realizar a contagem e ordenação das coisas.
+    </string>
+
+    <string name="science_school_subject1">Fotossíntese</string>
+    <string name="science_school_content1">
+        "A fotossíntese é definida como um processo em que a energia solar é capturada e as moléculas orgânicas são produzidas.
+        Esse processo é fundamental para a sobrevivência da vida no planeta e é a principal forma pela qual a energia entra na biosfera.
+        Nas plantas, o processo de fotossíntese ocorre em estruturas especializadas no interior das células, denominadas de cloroplasto."
+        \n\n"A fotossíntese é dividida em dois processos básicos: reação luminosa e reação de fixação de carbono.
+        Na primeira reação, estão envolvidos dois fotossistemas, que são unidades formadas por moléculas de pigmentos.
+        Nesses fotossistemas, observam-se duas regiões: o complexo antena e o centro de reação. O complexo antena coleta a energia luminosa e leva-a para o centro de reação.
+        No centro de reação, está presente um par de clorofila a responsável por utilizar a energia luminosa na reação."
+        \n\n"Existem dois tipos de fotossistema, que trabalham juntos: o fotossistema I e o fotossistema II.
+        \nNo fotossistema I, um par de moléculas especiais de clorofila, designado de P700, está relacionado com o pico ótimo de absorção.
+        \nO fotossistema II apresenta um par de clorofila a denominado de P680.
+        \n\nReação luminosa: Inicialmente, a energia luminosa entra no fotossistema II e passa para as moléculas de clorofila P680.
+        Essa molécula é excitada, e os elétrons energizados são transferidos, então, para um receptor de elétrons e, à medida que vão sendo retirados, são substituídos por outros elétrons que são provenientes de moléculas de água.
+        A molécula da água sofre fotólise, fornece esses elétrons e prótons e libera oxigênio.
+        \nAtravés da cadeia transportadora de elétrons, pares de elétrons chegam até o fotossistema I e geram um gradiente de prótons que leva à síntese de ATP em um processo denominado fotofosforilação, em que fosfato é adicionado ao ADP.
+        \nA energia absorvida pelo fotossistema I é passada para o centro de reação (clorofila P700). Os elétrons energizados são capturados por uma molécula de NADP+, e os elétrons retirados da clorofila P700 são substituídos por aqueles que estavam no fotossistema II.
+        \nA energia gerada nessas reações é estocada em moléculas de NADPH e ATP, as quais foram formadas no processo de fotofosforilação. Nessa reação, portanto, não ocorre a formação de açúcar.
+        \n\nReação de fixação de carbono: O ciclo de Calvin é o processo responsável pela fixação do CO2 e redução do novo carbono fixado. Ele inicia-se quando uma molécula de CO2 combina-se com a ribulose 1,5-bifosfato (RuBP), formando 3-fosfoglicerato (PGA).
+        O PGA é reduzido a gliceraldeído 3-fosfato (PGAL). Em cada ciclo de Calvin, um átomo de carbono é adicionado ao ciclo e a RuBP regenerada, e a cada três voltas é formada uma molécula de PGAL. A grande maioria do carbono fixado é convertida em sacarose ou amido."
+    </string>
+
+    <string name="geography_school_subject1">Paisagem natural</string>
+    <string name="geography_school_content1">
+        A paisagem natural é formada por porções do espaço geográfico caracterizadas por possuírem pouca ou nenhuma intervenção antrópica. Elas são típicas de regiões despovoadas.
+        \nA paisagem natural é formada por um conjunto de elementos com pouca ou nenhuma intervenção antrópica. Portanto, esse tipo de paisagem,
+        formada pelos componentes naturais do espaço, é contrária à chamada paisagem cultural.
+        \nA paisagem natural é composta prioritariamente por áreas que possuem baixíssima intervenção antrópica no meio, como florestas bem conservadas e regiões desérticas não povoadas.
+        \nAs paisagens naturais mantêm, no geral, aspectos físicos bem preservados.
+        \n\nResumo sobre paisagem cultural
+        \n\n•	A paisagem natural é formada basicamente por elementos físicos que sofreram pouca ou nenhuma intervenção antrópica.
+        \n•	A definição de paisagem natural é cada vez mais complexa mediante a ampliação da ocupação humana no espaço natural.
+        \n•	As áreas que sofreram intervenções humanas em diferentes níveis são formadas pelas chamadas paisagens naturais.
+        \n•	A paisagem estática é um conceito atrelado à fragmentação do espaço e indica a análise de uma pequena porção geográfica.
+        \n•	A paisagem dinâmica considera maior amplitude da análise geográfica referente à ação de variáveis físicas e humanas.
+        \n•	São exemplos de paisagem natural partes das regiões oceânicas do globo e zonas pontuais dos desertos.
+        \n•	O Brasil possui um espaço geográfico amplamente modificado. Logo, as paisagens naturais no país apresentam grande restrição espacial.
+    </string>
+
+    <string name="portuguese_high_school_subject1">Semântica</string>
+    <string name="portuguese_high_school_content1">
+        A semântica é a área que estuda o significado das palavras, frases, expressões e como esse significado é atribuído na comunicação.
+        Envolve a análise dos significados das unidades linguísticas e como elas se relacionam umas com as outras para formar sentenças coerentes.
+        \n\nA semântica é crucial para a compreensão e interpretação adequada da linguagem. Ela não apenas lida com o significado literal das palavras,
+        mas também com nuances, conotações e contextos que podem influenciar a interpretação.
+        \n\nO estudo da semântica contempla o conhecimento de sinônimos, antônimos, homônimos, parônimos, polissemia, conotação e denotação.
+        \n\nSinônimos e antônimos
+        \n\nOs sinônimos são palavras que possuem significados semelhantes, por exemplo:
+        \n\n•	andar e caminhar
+        \n•	usar e utilizar
+        \n•	fraco e frágil
+        \n\nOs sinônimos perfeitos possuem significados idênticos (após e depois, léxico e vocabulário). Já os sinônimos imperfeitos possuem significados parecidos (gordo e obeso, córrego e riacho).
+        \nOs antônimos são palavras que possuem significados contrários, por exemplo:
+        \n\n•	claro e escuro
+        \n•	triste e feliz
+        \n•	bom e mau
+
+    </string>
+
+    <string name="math_high_school_subject1">Funções</string>
+    <string name="math_high_school_content1">
+        O que são funções:
+        \n\nFunções são umas das ferramentas mais usadas na matemática. Na Matemática, função corresponde a uma associação dos elementos de dois conjuntos, ou seja,
+        a função indica como os elementos estão relacionados.
+        \n\nUma função é uma regra, ou conjunto de regras que recebe uma entrada e devolve uma saída correspondente.
+        \n\nA notação padrão para uma função é f:A→B, onde f é o nome da função, A é o domínio e B é o contradomínio.
+        Para cada elemento x no domínio A, f(x) é o valor correspondente no contradomínio.
+        \n\nO conceito de função é fundamental em várias áreas da matemática e é amplamente utilizado em física, economia, ciências da computação e muitas outras disciplinas
+        para modelar e entender relações entre quantidades. A ideia de uma função é central para o cálculo, que estuda como as funções mudam e se relacionam umas com as outras.
+    </string>
+
+    <string name="biology_high_school_subject1">Evolução</string>
+    <string name="biology_high_school_content1">
+        Evolução é um processo no qual ocorrem mudanças nos seres vivos ao longo do tempo, levando frequentemente ao surgimento de novas espécies.
+        Essas modificações são passadas para os descendentes, e é por isso que muitos definem evolução também como a descendência com modificação.
+        \n\nA evolução humana é o processo pelo qual os hominídeos, ancestrais dos seres humanos modernos, passaram por mudanças ao longo do tempo,
+        resultando nas características físicas e comportamentais distintas que definem a espécie Homo sapiens. A história da evolução humana é complexa e abrange milhões de anos.
+        \nAbaixo estão alguns marcos importantes na evolução humana:
+        \n\n1.  Hominídeos Primitivos: Os primeiros hominídeos apareceram na África há cerca de 6 a 7 milhões de anos. Ardipithecus ramidus é um exemplo, considerado um dos primeiros hominídeos.
+        \n\n2. Australopithecus: Entre 4 e 2 milhões de anos atrás, os australopitecíneos, como o famoso "Lucy" (Australopithecus afarensis), viveram na África.
+        Eles mostraram sinais de bipedia (andar ereto) e tinham características que se assemelham tanto a humanos quanto a símios.
+        \n\n3. Gênero Homo: Há aproximadamente 2,5 milhões de anos, surgiram os primeiros representantes do gênero Homo, como o Homo habilis, que utilizava ferramentas de pedra.
+        O Homo erectus surgiu mais tarde, com uma gama geográfica mais ampla e uma maior complexidade social.
+        \n\n4. Homo Neanderthalensis (Neandertais): Os neandertais surgiram cerca de 400.000 anos atrás e coexistiram com os Homo sapiens por um período.
+        Eles tinham características físicas distintas, adaptadas a ambientes mais frios.
+        \n\n5. Homo sapiens: Os Homo sapiens, os seres humanos modernos, surgiram aproximadamente 300.000 anos atrás na África. Eles possuíam habilidades avançadas de fabricação de ferramentas,
+        eram socialmente organizados e desenvolveram comportamentos simbólicos, como arte e enterros rituais.
+        \n\n6. Migração para Fora da África: Por volta de 70.000 a 100.000 anos atrás, os Homo sapiens começaram a migrar para fora da África, eventualmente colonizando outros continentes.
+    </string>
+
+    <string name="physics_high_school_subject1">Conservação de energia</string>
+    <string name="physics_high_school_content1">
+        Embora haja diversas formas de energia, o seu conceito ainda é pouco claro. A ideia de energia foi refinada gradualmente, à medida que físicos, matemáticos e filósofos
+        pensavam sobre o que são as coisas do mundo. Feynman, um célebre físico do século XX, disse o seguinte: “Ainda não sabemos o que é energia. […] A única coisa de que temos
+        certeza e que a Natureza nos permite observar é […] uma lei chamada “Conservação da Energia”.
+        \n\nA lei da conservação de energia é um princípio fundamental na física que estabelece que a energia total em um sistema isolado permanece constante ao longo do tempo.
+        Em outras palavras, a energia não pode ser criada nem destruída; ela apenas se transforma de uma forma para outra. Essa lei é uma das ideias fundamentais da física e é aplicável
+        a uma ampla variedade de fenômenos
+        \n\nA lei da conservação de energia implica que a soma de todas essas formas de energia em um sistema isolado permanece constante ao longo do tempo, desde que não haja interação com
+        forças externas. Em sistemas do mundo real, pode haver transformação de energia entre diferentes formas, mas a quantidade total de energia permanece constante.
+        \n\nEssa lei é uma ferramenta poderosa para analisar e entender uma ampla variedade de fenômenos físicos, desde o movimento de partículas subatômicas até o comportamento de objetos macroscópicos.
+    </string>
 </resources>

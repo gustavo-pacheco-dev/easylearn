@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLearnApp"
         tools:targetApi="31">
+        <activity
+            android:name=".HighSchoolTeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsHighSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyHighSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathHighSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PortugueseHighSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeographySchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScienceSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PortugueseSchoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HighSchoolStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SchoolStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChildhoodEducationActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
